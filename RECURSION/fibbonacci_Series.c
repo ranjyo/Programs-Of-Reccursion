@@ -11,12 +11,9 @@ int Fibbonacci_Series(int j)
     {
         return(Fibbonacci_Series(j-1) + Fibbonacci_Series(j-2));
     }
-
-
 }
 int main()
 {
-
 
      int N = 0 , i = 0 , j = 0;
 
@@ -27,13 +24,6 @@ int main()
     {
         printf("%d\t",Fibbonacci_Series(j));
         j++;
-
-
     }
-
-
-
-
-
     return 0;
 }
